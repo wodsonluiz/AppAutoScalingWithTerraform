@@ -1,6 +1,6 @@
 # AppAutoScalingWithTerraform
 
-Projeto Terraform responsavel por prover recursos no cloud usando como provedor a nuvem da AWS, aproveitando a feature de _workspace_ para criar uma conformidade entre ambientes. 
+Projeto Terraform responsavel por prover recursos no cloud usando como provedor a nuvem da AWS, aproveitando a feature de _workspace_ para criar uma conformidade entre ambientes (Dev, Prod, etc...) . 
 Abaixo exemplificando como vai ficar estruturado nossa infra de _VPC_ no cloud da AWS.
 
 ## Pré requisitos
