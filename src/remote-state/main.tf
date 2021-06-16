@@ -16,7 +16,7 @@ provider "aws" {
 data "aws_caller_identity" "current" {}
 
 resource "aws_s3_bucket" "remote-state" {
-  bucket = "tfstate-env-dev-${data.aws_caller_identity.current.account_id}"
+  bucket = "tfstate-env-${data.aws_caller_identity.current.account_id}"
 
   versioning {
     enabled = true
